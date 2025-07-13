@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+
+# Streamlit generated files
+*.pdf
+*.png
+data/*.png
+
+# Jupyter/VSCode stuff
+.ipynb_checkpoints/
+.vscode/
+.env
