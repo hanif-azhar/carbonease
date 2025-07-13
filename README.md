@@ -43,6 +43,7 @@ pip install -r requirements.txt
 # Run the app
 streamlit run app.py
 
+```
 ## Folder Structure
 carbonease/
 ├── pages/             # Extra Streamlit pages
