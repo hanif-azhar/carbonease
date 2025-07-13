@@ -45,16 +45,22 @@ streamlit run app.py
 
 ## Folder Structure
 carbonease/
-├── pages/             # Extra Streamlit pages
-│   ├── 1_Input.py     # User input page
-│   ├── 2_Log.py       # Emission log view
-│   └── 3_Dashboard.py # Dashboard & reporting
-├── utils/             # Helper functions
-│   ├── export.py
-│   └── lang.py
-├── data/              # Emission CSV and chart images
-├── app.py             # Main app
-└── .gitignore
+├── app.py # Main Streamlit app entry
+├── .gitignore
+├── data/ # Emission logs and chart images
+│
+├── pages/ # Multi-page Streamlit app
+│ ├── 1_home.py
+│ ├── 2_input.py
+│ ├── 3_dashboard.py
+│ └── 4_monthly_summary.py
+│
+├── utils/ # Helper scripts
+│ ├── calculator.py
+│ ├── export.py
+│ └── lang.py
+│
+└── venv/ # (Git-ignored) Virtual environment
 
 ```
 
