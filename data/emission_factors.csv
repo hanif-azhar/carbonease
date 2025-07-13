@@ -1,0 +1,10 @@
+category,activity,unit,emission_factor
+Electricity,Grid Electricity,kWh,0.475
+Fuel,Diesel,L,2.68
+Fuel,Petrol,L,2.31
+Transport,Car (average),km,0.21
+Transport,Flight (short haul),km,0.15
+Transport,Flight (long haul),km,0.11
+Material,Plastic,kg,1.8
+Material,Steel,kg,2.0
+Material,Aluminum,kg,9.0
