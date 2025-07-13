@@ -43,7 +43,6 @@ pip install -r requirements.txt
 # Run the app
 streamlit run app.py
 
-```
 ## Folder Structure
 carbonease/
 ├── pages/             # Extra Streamlit pages
@@ -56,6 +55,8 @@ carbonease/
 ├── data/              # Emission CSV and chart images
 ├── app.py             # Main app
 └── .gitignore
+
+```
 
 ## Why
 Many SMEs lack the tools to measure and reduce their carbon footprint. CarbonEase is built to change that — fast, easy, and transparent.
